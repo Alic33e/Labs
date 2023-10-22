@@ -1,0 +1,8 @@
+<h2>{{ titulo }}</h2>
+{% if operacion == 'suma' %}
+    la suma de {{numeroa}}  + {{numerob}} = {{resultado}}
+{% elif operacion == 'resta' %}
+    la resta de {{numeroa}}  - {{numerob}} = {{resultado}}
+{% elif operacion == 'multiplicacion' %}
+    el producto de {{numeroa}}  * {{numerob}} = {{resultado}}
+{% endif %}
